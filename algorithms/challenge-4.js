@@ -8,7 +8,7 @@ function withdraw(amount) {
     return [hundred, fifty, twenty];
 }
 
-console.log(withdraw(250),
-withdraw(370));
+console.log(withdraw(250));
+console.log(withdraw(370));
 
 module.exports = withdraw
