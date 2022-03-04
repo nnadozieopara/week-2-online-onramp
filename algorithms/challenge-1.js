@@ -13,7 +13,7 @@ function missingNumber(numArr) {
     }
     
     if(result.length === 0){
-        return "false"
+        return false;
     }else if(result.length === 1){
         return result[0];
     }else{
