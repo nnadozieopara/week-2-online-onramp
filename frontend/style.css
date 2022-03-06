@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgba(233, 6, 241, 0.959);
+}
+
+main{
+    width: 60%;
+    margin: 15em auto;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2em;
+}
+.contact{
+    margin-top: 2em;
+    width: 45%;
+    color: grey;
+}
+ 
+.contact h1{
+    margin-left: 2em;
+    color: rgba(233, 6, 241, 0.959);
+    font-size: 1.5rem;
+}
+span{
+    text-decoration: underline;
+}
+
+.text-item{
+    margin: 2em;
+    width: 50%;
+}
+
+.text-item form input, textarea{
+    border: none;
+    background: none;
+    border-bottom: 1px solid grey;
+    width: 90%;
+    padding: 1em;
+    color: white;
+}
+
+.btn{
+    float: right;
+    margin-right: 2em;
+}
+
+#cancel-btn, #send-btn{
+    background: none;
+    border: none;
+    color:rgba(233, 6, 241, 0.959);
+    padding: 0.7em;
+}

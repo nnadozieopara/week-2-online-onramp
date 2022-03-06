@@ -5,7 +5,13 @@ Implement the function missingNumber(numArr) which returns the missing number in
 ## Examples
 
 missingNumber([1,2,3,4,6,7,8,9]) to return 5  
+
+[1,2,3,4,0,6,7,8,9]
+
 missingNumber([1,2,3,4,5,6,8]) to return [7, 9]  
+
+[1,2,3,4,5,6,0,8,0]
+
 missingNumber([1,2,3,4,5,6,7,8,9]) to return false 
 
 
@@ -19,11 +25,15 @@ Implement the function numSwap(number) which takes a number of even length, swap
 numSwap(1234) to return 2143  
 numSwap(432156) to return 341265
 
+1234 = 1000 + 200 + 30 + 4
+2143 = 2000 + 100 + 40 + 3
+
+
 
 
 # Challenge 3
 
-Implement the function increment(arr, value) which increments the value of val key in every object inside the array by the given value and returns the new array
+Implement the function increment(arr, number) which increments the value of val key in every object inside the array by the given number and returns the new array
 
 ## Examples
 
@@ -41,8 +51,15 @@ Implement the function withdraw(amount) that returns the minimal number of 100, 
 
 ## Examples
 
-withdraw(250) to return [2,1,0]  
+withdraw(250) to return [2,1,0] 
+50 + 50 + 50 + 50 + 50 =250   (5)
+100 + 100 + 50 = 250           (3)
+
+
 withdraw(370) to return [3,1,1]
+
+3(100) + 1(50) + 1(20)
+300 + 50 + 20 = 370
 
 
 

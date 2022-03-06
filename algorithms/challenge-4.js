@@ -1,5 +1,6 @@
 function withdraw(amount) {
-    let amountLess100 = amount % 100;
+
+    let amountLess100 = amount % 100; 
     let hundred = (amount - amountLess100)/100;
     let amountLess50 = amountLess100 % 50;
     let fifty = (amountLess100 - amountLess50)/50;
@@ -10,5 +11,6 @@ function withdraw(amount) {
 
 console.log(withdraw(250));
 console.log(withdraw(370));
+console.log(withdraw(490))
 
 module.exports = withdraw
